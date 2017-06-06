@@ -5,7 +5,7 @@ job('spring-cloud-seed') {
     scm {
         git {
             remote {
-                github('spring-io/build-scripts')
+                github('spring-cloud/spring-cloud-jenkins-jobs')
             }
             branch('master')
         }

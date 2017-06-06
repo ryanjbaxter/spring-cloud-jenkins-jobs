@@ -1,12 +1,11 @@
-
-job('meta-seed') {
+job('spring-cloud-meta-seed') {
     triggers {
         githubPush()
     }
     scm {
         git {
             remote {
-                github('spring-io/build-scripts')
+                github('spring-cloud/spring-cloud-jenkins-jobs')
             }
             branch('master')
         }
