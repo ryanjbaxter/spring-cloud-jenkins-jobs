@@ -18,7 +18,7 @@ dsl.nestedView('Common') {
 	views {
 		listView('Common Libraries') {
 			jobs {
-				regex('spring-jenkins-common.*-ci')
+				regex('jenkins-common.*-ci')
 			}
 			columns defaultColumns()
 		}
